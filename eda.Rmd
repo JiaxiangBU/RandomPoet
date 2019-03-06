@@ -1,0 +1,16 @@
+---
+title: "EDA"
+output: github_document
+---
+
+```{r}
+suppressMessages(library(tidyverse))
+library(xfun)
+library(data.table)
+```
+
+
+```{r}
+df <- readLines('全唐诗.txt')
+```
+
